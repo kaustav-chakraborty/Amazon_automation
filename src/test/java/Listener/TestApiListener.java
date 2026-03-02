@@ -42,5 +42,4 @@ public class TestApiListener implements ITestListener {
     public void onFinish(org.testng.ITestContext context) {
         extentReports.flush();
     }
-
 }
